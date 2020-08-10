@@ -1,0 +1,16 @@
+.nav_div{
+	display: flex;
+	justify-content: space-around;
+	margin: 10px 0 70px 0;
+	font-size: larger;
+}
+
+.nav{
+	/* padding: 10px; */
+	text-decoration: none;
+}
+
+.active{
+color: green;
+border-bottom: 1px solid green;
+}
