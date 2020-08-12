@@ -9,6 +9,6 @@ function User() {
 			<h4>How R U?</h4>
 		</>
 	);
-}
 
-export default User;
+	}
+export default User

@@ -13,7 +13,7 @@ function App() {
 		<>
 			<NavBar />
 			<Switch>
-				<Route exact path='/' component={Home} />
+				<Route exact path='/firstreactwebsite' component={Home} />
 				<Route path='/mainapp' component={MainApp} />
 				<Route path='/yashapp' component={YashApp} />
 				<Route path='/user/:fname' component={User} />
