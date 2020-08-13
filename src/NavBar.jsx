@@ -13,7 +13,7 @@ function NavBar() {
 	  <NavLink exact activeClassName='active' className='nav' to='/'>Home</NavLink>
       <NavLink exact activeClassName='active' className='nav' to='/mainApp'>Main App</NavLink>
       <NavLink exact activeClassName='active' className='nav' to='/yashApp'>Yash App</NavLink>	  
-      <NavLink exact activeClassName='active' className='nav' to='/user/new/user/'>User</NavLink>	  
+      <NavLink exact activeClassName='active' className='nav' to='/user/new/user/'>User</NavLink>
 	  </div>
 	  </>
   );
