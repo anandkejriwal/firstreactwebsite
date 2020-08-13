@@ -13,10 +13,10 @@ function App() {
 		<>
 			<NavBar />
 			<Switch>
-				<Route exact path='/' component={Home} />
-				<Route path='/mainapp' component={MainApp} />
-				<Route path='/yashapp' component={YashApp} />
-				<Route path='/user/:fname' component={User} />
+				<Route exact path='/firstreactwebsite/' component={Home} />
+				<Route path='/firstreactwebsite/mainapp' component={MainApp} />
+				<Route path='/firstreactwebsite/yashapp' component={YashApp} />
+				<Route path='/firstreactwebsite/user/:fname' component={User} />
 				<Route component={Error} />
 			</Switch>
 

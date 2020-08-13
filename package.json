@@ -1,6 +1,6 @@
 {
   "name": "todo",
-  "homepage": "https://anandkejriwal.github.io/firstreactwebsite/",
+  "homepage": "http://localhost/firstreactwebsite/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
