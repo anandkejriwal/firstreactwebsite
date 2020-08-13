@@ -13,10 +13,10 @@ function App() {
 		<>
 			<NavBar />
 			<Switch>
-				<Route exact path='/anandkejriwal.github.io/firstreactwebsite/' component={Home} />
-				<Route path='/anandkejriwal.github.io/firstreactwebsite/mainapp' component={MainApp} />
-				<Route path='/anandkejriwal.github.io/firstreactwebsite/yashapp' component={YashApp} />
-				<Route path='/anandkejriwal.github.io/firstreactwebsite/user/:fname' component={User} />
+				<Route exact path='/firstreactwebsite/' component={Home} />
+				<Route path='/firstreactwebsite/mainapp' component={MainApp} />
+				<Route path='/firstreactwebsite/yashapp' component={YashApp} />
+				<Route path='/firstreactwebsite/user/:fname' component={User} />
 				<Route component={Error} />
 			</Switch>
 
